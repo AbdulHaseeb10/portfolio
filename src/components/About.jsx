@@ -1,5 +1,5 @@
 import React from "react";
-import Tilt from "react-tilt";
+import { Tilt } from 'react-tilt';
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
@@ -49,7 +49,7 @@ const About = () => {
       >
         I'm a skilled fullstack 
         web developer with excellent logical and analytical skills specialized in
-        computer science fundamentals and problem solving with experience in JavaScript, React, Node.js and Nextjs. I can create efficient, scalable, and user-friendly solutions that solve real-world problems.
+        web development and salesforce technologies with experience in JavaScript, React, Node.js, Apex and Nextjs. I can create efficient, scalable, and user-friendly enterprise solutions that solve real-world problems.
         Let's work together to bring your ideas to life!
       </motion.p>
 

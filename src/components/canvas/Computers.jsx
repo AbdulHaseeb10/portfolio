@@ -72,6 +72,7 @@ const ComputersCanvas = () => {
 
       <Preload all />
     </Canvas>
+
   );
 };
 

@@ -23,7 +23,7 @@ const Contact = () => {
   const handleSubmit = (e)=>{
     e.preventDefault();
     setLoading(true);
-    emailjs.send("service_lrse34r",
+    emailjs.send("service_1wcy8ds",
     "template_0onbe9r",
       {
         from_name:form.name,

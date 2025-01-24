@@ -15,11 +15,14 @@ import {
     git,
     carrent,
     stakesmen,
+    salesforce,
+    creator,
     jobit,
     tripguide,
     threejs,
     java,
     python,
+    backend,
     cpp
 } from "../assets";
   
@@ -42,6 +45,14 @@ import {
     {
       title: "Web Developer",
       icon: web,
+    },
+    {
+      title: "ReactNative Developer",
+      icon: backend,
+    },
+    {
+      title: "Salesforce Developer",
+      icon: creator,
     }
   ];
   
@@ -102,10 +113,23 @@ import {
       name: "git",
       icon: git,
     },
+
     
   ];
   
   const experiences = [
+    {
+      title: "Technical Engineer",
+      company_name: "Salesforce",
+      icon: salesforce,
+      iconBg: "#fff",
+      date: "October 2023 - Present",
+      points: [
+        "Led technical support during Spring’24 and Summer’24 releases, ensuring seamless transitions and minimal customer disruptions.",
+        "Collaborated with Software Engineering and CIC Teams to troubleshoot and resolve issues using Apex and AppExchange, enhancing customer satisfaction.",
+        "Supported the migration of Tableau and MuleSoft into the Salesforce Help Portal, improving platform integration and user experience",  
+      ],
+    },
     {
       title: "Web Developer",
       company_name: "stakesmen.com",
